@@ -105,8 +105,7 @@ def delete_quotation():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT is not set
-    print(f"Starting Python Flask Server For Grocery Store Management System on port {port}")
-    app.run(host='0.0.0.0', port=port)
+    print("Starting Python Flask Server For Grocery Store Management System")
+    app.run(port=3306)
 
 
