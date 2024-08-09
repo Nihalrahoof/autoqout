@@ -8,7 +8,7 @@ var productDeleteApiUrl = baseApiUrl + '/deleteProduct';
 var customerSaveApiUrl = baseApiUrl + '/insertCustomers';
 var quotationSaveApiUrl = baseApiUrl + '/insertQuotations';
 var customerTotalsApiUrl = baseApiUrl + '/getCustomers';
-var quotationListApiUrl = baseApiUrl + '/getQuotations';
+var quotationListApiUrl = baseApiUrl + '/getlists';
 var quotationDeleteApiUrl = baseApiUrl + '/deleteQuotation';
 var productsApiUrl = 'https://fakestoreapi.com/products';
 
