@@ -5,6 +5,7 @@ import quotation_dao
 from sql_connection import get_sql_connection
 import mysql.connector
 import json
+import os  # Import the os module
 
 import products_dao
 import uom_dao
