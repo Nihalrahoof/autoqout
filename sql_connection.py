@@ -11,7 +11,7 @@ def get_sql_connection():
         __cnx = mysql.connector.connect(
             host="mysql.railway.internal",
             user="root",
-            password="kuQGNpXVYhtiVnEFPSEnjXaLFDjouXLG",
+            password="uczUSvprdjEqrnTuBMbsfTKnAphPAyeV",
             database="railway"
         )
 
