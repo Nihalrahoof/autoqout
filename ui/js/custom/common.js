@@ -1,5 +1,5 @@
 // Update your API URLs to match the deployed server
-var baseApiUrl = 'https://web-production-04f73.up.railway.app';
+var baseApiUrl = 'https://autoquotation.up.railway.app';
 
 var productListApiUrl = baseApiUrl + '/getProducts';
 var uomListApiUrl = baseApiUrl + '/getUOM';
