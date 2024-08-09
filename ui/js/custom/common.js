@@ -1,15 +1,16 @@
-// Define your api here
-var productListApiUrl = 'http://127.0.0.1:5000/getProducts';
-var uomListApiUrl = 'http://127.0.0.1:5000/getUOM';
-var productSaveApiUrl = 'http://127.0.0.1:5000/insertProduct';
-var productDeleteApiUrl = 'http://127.0.0.1:5000/deleteProduct';
-var customerSaveApiUrl = 'http://127.0.0.1:5000/insertCustomers';
-var quotationSaveApiUrl = 'http://127.0.0.1:5000/insertQuotations';
-var customerTotalsApiUrl = 'http://127.0.0.1:5000/getCustomers';
-var quotationListApiUrl = 'http://127.0.0.1:5000/getlists';
-var quotationDeleteApiUrl = 'http://127.0.0.1:5000/deleteQuotation';
+// Define your API here
+var productListApiUrl = 'http://127.0.0.1:8080/getProducts';
+var uomListApiUrl = 'http://127.0.0.1:8080/getUOM';
+var productSaveApiUrl = 'http://127.0.0.1:8080/insertProduct';
+var productDeleteApiUrl = 'http://127.0.0.1:8080/deleteProduct';
+var customerSaveApiUrl = 'http://127.0.0.1:8080/insertCustomers';
+var quotationSaveApiUrl = 'http://127.0.0.1:8080/insertQuotations';
+var customerTotalsApiUrl = 'http://127.0.0.1:8080/getCustomers';
+var quotationListApiUrl = 'http://127.0.0.1:8080/getlists';
+var quotationDeleteApiUrl = 'http://127.0.0.1:8080/deleteQuotation';
 // For product drop in order
 var productsApiUrl = 'https://fakestoreapi.com/products';
+
 
 function callApi(method, url, data) {
     $.ajax({
