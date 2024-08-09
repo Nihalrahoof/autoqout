@@ -1,13 +1,14 @@
 // Define your API here
-var productListApiUrl = 'http://127.0.0.1:8080/getProducts';
-var uomListApiUrl = 'http://127.0.0.1:8080/getUOM';
-var productSaveApiUrl = 'http://127.0.0.1:8080/insertProduct';
-var productDeleteApiUrl = 'http://127.0.0.1:8080/deleteProduct';
-var customerSaveApiUrl = 'http://127.0.0.1:8080/insertCustomers';
-var quotationSaveApiUrl = 'http://127.0.0.1:8080/insertQuotations';
-var customerTotalsApiUrl = 'http://127.0.0.1:8080/getCustomers';
-var quotationListApiUrl = 'http://127.0.0.1:8080/getlists';
-var quotationDeleteApiUrl = 'http://127.0.0.1:8080/deleteQuotation';
+var productListApiUrl = 'https://web-production-04f73.up.railway.app/getProducts';
+var uomListApiUrl = 'https://web-production-04f73.up.railway.app/getUOM';
+var productSaveApiUrl = 'https://web-production-04f73.up.railway.app/insertProduct';
+var productDeleteApiUrl = 'https://web-production-04f73.up.railway.app/deleteProduct';
+var customerSaveApiUrl = 'https://web-production-04f73.up.railway.app/insertCustomers';
+var quotationSaveApiUrl = 'https://web-production-04f73.up.railway.app/insertQuotations';
+var customerTotalsApiUrl = 'https://web-production-04f73.up.railway.app/getCustomers';
+var quotationListApiUrl = 'https://web-production-04f73.up.railway.app/getlists';
+var quotationDeleteApiUrl = 'https://web-production-04f73.up.railway.app/deleteQuotation';
+
 // For product drop in order
 var productsApiUrl = 'https://fakestoreapi.com/products';
 
