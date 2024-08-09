@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from sql_connection import get_sql_connection
-
+import os
 app = Flask(__name__)
 
 
@@ -83,4 +83,5 @@ def delete_product_route():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
