@@ -1,13 +1,16 @@
-// Define your API here
-var productListApiUrl = 'https://web-production-04f73.up.railway.app/getProducts';
-var uomListApiUrl = 'https://web-production-04f73.up.railway.app/getUOM';
-var productSaveApiUrl = 'https://web-production-04f73.up.railway.app/insertProduct';
-var productDeleteApiUrl = 'https://web-production-04f73.up.railway.app/deleteProduct';
-var customerSaveApiUrl = 'https://web-production-04f73.up.railway.app/insertCustomers';
-var quotationSaveApiUrl = 'https://web-production-04f73.up.railway.app/insertQuotations';
-var customerTotalsApiUrl = 'https://web-production-04f73.up.railway.app/getCustomers';
-var quotationListApiUrl = 'https://web-production-04f73.up.railway.app/getlists';
-var quotationDeleteApiUrl = 'https://web-production-04f73.up.railway.app/deleteQuotation';
+// Update your API URLs to match the deployed server
+var baseApiUrl = 'https://web-production-04f73.up.railway.app';
+
+var productListApiUrl = baseApiUrl + '/getProducts';
+var uomListApiUrl = baseApiUrl + '/getUOM';
+var productSaveApiUrl = baseApiUrl + '/insertProduct';
+var productDeleteApiUrl = baseApiUrl + '/deleteProduct';
+var customerSaveApiUrl = baseApiUrl + '/insertCustomers';
+var quotationSaveApiUrl = baseApiUrl + '/insertQuotations';
+var customerTotalsApiUrl = baseApiUrl + '/getCustomers';
+var quotationListApiUrl = baseApiUrl + '/getQuotations';
+var quotationDeleteApiUrl = baseApiUrl + '/deleteQuotation';
+var productsApiUrl = 'https://fakestoreapi.com/products';
 
 // For product drop in order
 var productsApiUrl = 'https://fakestoreapi.com/products';
