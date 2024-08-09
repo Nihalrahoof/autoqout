@@ -273,10 +273,19 @@ $(document).ready(function() {
         }
         switch (discountColor.toLowerCase()) {
             case 'red':
-                price *= 0.90; // 10% discount 
+                price *= 0.80; // 20% discount 
                 break;
             case 'green':
-                price *= 0.80; // 20% discount
+                price *= 1.0; // No discount
+                break;
+            case 'orange':
+                price *= 0.90; // 10% discount
+                break;
+            case 'ultra red':
+                price *= 0.70; // 30% discount
+                break;
+            case 'ultra violet':
+                price *= 0.60; // 40% discount
                 break;
             // Add more colors and discounts as needed
             default:
