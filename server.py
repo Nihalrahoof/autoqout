@@ -15,6 +15,9 @@ app = Flask(__name__)
 connection = get_sql_connection()
 
 
+@app.route('/')
+def index():
+    return send_from_directory('ui', 'index.html')
 
 
 
