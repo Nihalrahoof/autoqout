@@ -10,14 +10,19 @@ import os  # Import the os module
 import products_dao
 import uom_dao
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='ui', static_url_path='')
 
 connection = get_sql_connection()
+
 
 
 @app.route('/')
 def index():
     return send_from_directory('ui', 'index.html')
+
+@app.route('/css/<path:filename>')
+def serve_css(filename):
+    return send_from_directory('ui/css', filename)
 
 
 
