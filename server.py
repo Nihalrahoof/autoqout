@@ -14,6 +14,12 @@ app = Flask(__name__)
 
 connection = get_sql_connection()
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Welcome to the Flask app!"
+
+
+
 @app.route('/getUOM', methods=['GET'])
 def get_uom():
     response = uom_dao.get_uoms(connection)
