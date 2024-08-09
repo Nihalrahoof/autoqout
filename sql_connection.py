@@ -9,7 +9,7 @@ def get_sql_connection():
 
     if __cnx is None:
         __cnx = mysql.connector.connect(
-            host=os.getenv('mysql://root:kuQGNpXVYhtiVnEFPSEnjXaLFDjouXLG@mysql.railway.internal:3306/railway'),
+            host=os.getenv('mysql.railway.internal'),
             user=os.getenv('root'),
             password=os.getenv('kuQGNpXVYhtiVnEFPSEnjXaLFDjouXLG'),
             database=os.getenv('railway'),
